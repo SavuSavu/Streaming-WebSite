@@ -1,0 +1,819 @@
+body{
+    margin: 0;
+    /*background-color: #252529;*/
+    line-height: 1.6;    
+}
+
+.jump{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.container h2{
+    margin-top: -20px;
+}
+/* Containers*/
+
+.container {
+    
+    max-width: 1180px;
+
+    text-align: center;
+    margin: 0 auto;
+    padding:f 0 3rem;
+}
+
+.showcase .container{
+    margin-top: 4vh;
+}
+/*Section main*/
+#section-main{
+
+}
+
+/* Showcase*/
+.showcase h1{
+    font-size: 4rem;
+    color: #5CB2F2;
+}
+.showcase h2{
+    font-size:2.5rem;
+}
+.showcase p{
+    max-width: 70%;
+    text-align: center;
+    font-size: 1.5rem;
+    position:relative;
+     top:125px;
+    
+}
+.showcase{
+    background: url('../img/showcase2.jpg') no-repeat 
+    center/cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+/* Navigation*/
+nav ul{
+    /*height: px;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2b2b2b;
+    
+}
+nav li {
+    font-size: 1.1rem;
+    float: right;
+    
+}
+nav li a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#5CB2F2;
+    border-radius: 20px;
+}
+
+.logo{
+    background-color:#5CB2F2;
+    float: left;
+}
+
+
+h1  {
+    text-align: center;
+}
+h2 {
+    text-align: center
+}
+p{
+    text-align: center;
+}
+/* Deliminator */
+
+.deliminator{
+    height: 250px;
+    margin-top: -25px;
+    background-color: #5CB2F2;
+}
+.deliminator h2{
+    /* margin-left: -150px; */
+
+}
+.btn1 button{
+    background-color: black; /* Green */
+    border: none;
+    color: #5CB2F2;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+.btn1 :hover{
+    transform: scale(1.05);
+    transition: all .3s;
+    z-index: 100;
+    box-shadow: 0 0 30px #52527a;
+
+}
+.btn1{
+    text-align:center;
+    margin:auto;
+
+}
+
+/*  PRICE TABLE */ 
+.pricing{
+    
+    background: url('../img/pricing2.jpg') no-repeat 
+    center/cover;
+    width: 100%;
+    height: 100%;
+}
+.columns{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+/*color: #5CB2F2;*/
+}
+.price .header{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color:#ff751a;
+}
+
+.columns ul.price{
+    border-radius: 15%;
+    text-align: center;
+    background-color: #5CB2F2;/* #990000;*/
+    list-style: none;
+    margin-top: 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* width of each table */
+    margin-right: 20px; /* spacing between tables */
+    margin-bottom: 1em;
+    border: 1px solid gray;
+    transition: all .4s;
+}
+.columns li{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+   /* border: 1px solid black;*/
+    color: black;
+    
+
+}
+.columns a{ 
+    text-decoration: none;
+  
+}
+
+.grey1 .button {
+    font-weight: bold;
+    padding: 0.5rem;
+    background-color: #5CB2F2;
+    color: black;
+    border: 2px solid #ff751a; 
+}
+
+
+.columns ul.price:hover{
+    transform: scale(1.05);
+    transition: all .4s;
+    z-index: 100;
+    box-shadow: 0 0 20px #737373;
+
+}
+
+
+article{
+    color: white;
+    font-size: 2rem;
+    text-align: center
+}
+article p{
+    margin-top: -10px;
+    color: #ff751a;
+    font-weight: bold;
+    margin-left: 10%;
+    text-align: center;
+    max-width: 30%;
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    
+}
+footer p{
+    color: white;
+    margin:0;
+    /*padding-top: 1vh;*/
+    font-size: 1.5rem;
+}
+
+
+/*  style for music page  */
+.hide-on-small-music{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.bla{
+font-size: 2.5rem;
+}
+
+/*    start css for music.html  */
+.showcase-music{
+    
+    margin-top: 0;
+    background: url('../img/HeaderMusic.jpg') no-repeat 
+    center/cover;
+    width: 100%;
+    height: 150vh;
+    
+}
+.music-table {
+    margin-top: 5vh;
+    /*border-radius: 20%;*/
+    margin-right: 20%;
+    margin-left: 20%;
+    border-collapse: collapse;
+    width: 60%;
+}
+.music-table td, .music-table th {
+    border: 1px solid #ddd;
+    padding: 8px 15px 8px 10px;
+    margin: 2px 10px 2px 2px;
+
+}
+
+
+.music-table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.music-table tr:nth-child(odd){
+    background-color:  #cccccc;
+}
+
+.music-table tr:hover {
+    background-color: #5CB2F2;
+    /*font-weight: bold;*/
+    
+   /* color: white;*/
+}
+
+
+
+.music-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ff751a;
+    color: black;
+}
+
+
+/*  style for Album page  */
+.showcase-album{
+    
+    margin-top: 0;
+    background: url('../img/backgroundAlbum.jpg') repeat center/cover ;
+    width: 100%;
+    padding-bottom: 30px;
+    
+    
+}
+/*.album{
+    max-width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}*/
+.album h1{
+    margin-top: 100px;
+    font-size: 3rem;
+    max-width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.album .imag{
+    max-width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: black solid 10px;
+    
+}
+.album img{ 
+
+    /*padding: -10px;
+    margin: -10px;*/
+    margin-bottom: -10px;
+    width: 100%;
+    height: 100%;
+  
+}
+
+/*style for album table */
+.albumTable {
+    
+    margin-top: 5vh;
+ /*   border-radius: 20%;*/
+    margin-left:30%;
+    margin-right: 30%;
+    border-collapse: collapse;
+    width: 40%;
+}
+.albumTable th:nth-child(2){
+margin-left:0;
+}
+
+.albumTable td, .albumTable th{
+    /*border: 1px solid #ddd;*/
+    padding: 8px 15px 8px 10px;
+    margin: 2px 10px 2px 2px;
+
+}
+
+/*.albumTable td:hover:last-child{
+    font-size: 1.2rem;
+}*/
+
+
+.albumTable tr:nth-child(even){
+    background-color: #9fbedf/*#f2f2f2*/;
+}
+
+.albumTable tr:nth-child(odd){
+    background-color: #0099cc /*#cccccc*/;
+}
+.albumTable tr:first-child{
+    text-decoration: none;
+}
+.albumTable tr:hover {
+    background-color: #5CB2F2;
+   /* font-weight: bold;
+    
+    color: white;*/
+}
+
+.albumTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:black;
+    color: white;
+}
+
+
+/*end of style for album table*/
+
+/*test drop down */
+
+.dropbtn {
+    
+    font-weight: bold;
+    background-color: #5CB2F2;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #5CB2F2}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #b3b3b3;
+}
+.dropdown-content :active{
+}
+
+/*end test drop down*/
+
+
+/* css for about page */  
+.about-showcase{
+    
+    background: url('../img/AboutBack.jpg') no-repeat 
+    center/cover;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.about-art h1{
+    color: black;
+    font-size: 3rem;
+    
+}
+
+
+.about-art ul{
+    
+    color: black;
+    margin-left: 20%;
+    max-width: 60%;
+    margin-right: 20%;
+
+
+}
+.about-art li{
+   
+    margin-left: 0;
+    width: 100%;
+}
+
+.about-art p{
+    margin-left: 0;
+    color: black;
+    max-width: 100%;
+    text-align: left;
+    font-size: 2rem;
+}
+
+
+#black{
+    color: black;
+}
+
+.about-art p{
+    font-size: 1.4rem;
+}
+/*start of media query*/
+
+@media screen and (max-width:1024px){
+    .album h1{
+        margin-top: 100px;
+        font-size: 3rem;
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .album .imag{
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        border: black solid 10px;
+        
+    }
+    .albumTable {
+    
+        margin-top: 5vh;
+     /*   border-radius: 20%;*/
+        margin-left:25%;
+        margin-right: 25%;
+        border-collapse: collapse;
+        width: 50%;
+    }
+    
+
+}
+
+
+@media screen and (max-height:654px){
+    .hide-on-small{
+    
+        margin-top: -5%;
+    }
+
+}
+
+
+@media screen and (max-width: 425px){
+    nav li {
+        font-size: 0.8rem;
+        float: right;   
+    }
+ 
+    nav li a{
+    
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 8px;
+        text-decoration: none;
+    }
+
+
+    .album h1{
+        margin-top: 100px;
+        font-size: 2rem;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .album .imag{
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: black solid 10px;
+        
+    }
+    .albumTable {
+    
+        margin-top: 5vh;
+     /*   border-radius: 20%;*/
+        margin-left:10%;
+        margin-right: 10%;
+        border-collapse: collapse;
+        width: 80%;
+    } 
+
+    .music-table {
+        font-size: 0.7rem;
+        margin-top: 5vh;
+        /*border-radius: 20%;*/
+        margin-right: 5%;
+        margin-left: 5%;
+        border-collapse: collapse;
+        width: 90%;
+    }
+
+    .about-art h1{
+        color: black;
+        font-size: 2rem;
+        
+    }
+    
+
+    
+    .about-art ul{
+        
+        color: black;
+        margin-left: 5%;
+        max-width: 80%;
+        margin-right: 10%;
+    
+    
+    }
+    .about-art li{
+       
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .about-art p{
+        margin-left: 0;
+        color: black;
+        max-width: 100%;
+        text-align: left;
+        font-size: 1rem;
+    }
+    
+
+
+}
+
+@media screen and (max-width:768px){
+
+ 
+
+    .showcase-music{
+    
+        margin-top: 0;
+        background: url('../img/HeaderMusic.jpg') no-repeat 
+        center/cover;
+        width: 100%;
+        height: 150vh;
+        
+    }
+
+    .album h1{
+        margin-top: 40px;
+    }
+    
+
+
+    .album h1{
+        margin-top: 100px;
+        font-size: 2rem;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .album .imag{
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border: black solid 10px;
+        
+    }
+    .albumTable {
+    
+        margin-top: 5vh;
+     /*   border-radius: 20%;*/
+        margin-left:10%;
+        margin-right: 10%;
+        border-collapse: collapse;
+        width: 80%;
+    } 
+
+
+
+}
+
+@media screen and (max-width:375px){
+
+    .music-table {
+        margin-top: 5vh;
+        /*border-radius: 20%;*/
+        margin-right: 5%;
+        margin-left: 5%;
+        border-collapse: collapse;
+        width: 90%;
+    }
+
+    .hide-on-small-music{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    nav li {
+        font-size: 0.9rem;
+        float: right;   
+    }
+
+    .album h1{
+        margin-top: 100px;
+        font-size: 2rem;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .album .imag{
+        max-width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: black solid 10px;
+        
+    }
+    .albumTable {
+    
+        margin-top: 5vh;
+     /*   border-radius: 20%;*/
+        margin-left:5%;
+        margin-right: 5%;
+        border-collapse: collapse;
+        width: 90%;
+    } 
+
+}
+@media screen and (max-width:320px){
+
+
+    nav li {
+        font-size: 0.8rem;
+        float: right;   
+    }
+
+    nav li a{
+    
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 7px 8px;
+        text-decoration: none;
+    }
+
+    .album h1{
+        margin-top: 100px;
+        font-size: 2rem;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .album .imag{
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border: black solid 10px;
+        
+    }
+    .albumTable {
+    
+        margin-top: 5vh;
+     /*   border-radius: 20%;*/
+        margin-left: 0;
+        margin-right: 0;
+        border-collapse: collapse;
+        width: 100%;
+    } 
+}
+
+
+@media screen and (max-width: 610px){
+/* price table*/
+.columns ul.price{
+
+    border-radius: 0;
+    width: 90%;
+    margin-right: 0;
+}
+.columns ul.price:hover{
+    transform: none;
+    box-shadow: none;
+}
+
+
+    .columns {
+        width: 100%;
+    }
+
+.hide-on-small{
+    
+    display: none;
+}
+
+.showcase h1{
+    font-size: 3rem;
+}
+.showcase h2{
+    margin-top: 10vh;
+    font-size:2rem;
+}
+
+
+.showcase{
+    height: 50vh;
+}
+.showcase .container{
+    margin-top: 5vh;
+}
+article p{
+    margin-left: 10%;
+    text-align: center;
+    max-width: 80%;
+    font-size: 1.2rem;
+}
+
+.music-table {
+    margin-top: 5vh;
+    /*border-radius: 20%;*/
+    margin-right: 5%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+.hide-on-small-music{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+
+}
